@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root {
-    --gradient: linear-gradient(45deg,
-            #845ec2,
-            #d65db1,
-            #ff6f91,
-            #ff9671,
-            #ffc75f,
-            #f9f871);
+    --gradient: linear-gradient(
+        45deg,
+        #8A2387,
+            #E94057,
+            #F27121
+        );
 }
 
 body {
