@@ -1,3 +1,31 @@
+:root {
+    --gradient: linear-gradient(
+        45deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #ffc75f,
+        #f9f871
+    );
+}
+
+body {
+    color: white !important;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
 #profile-picture {
     max-width: 300px;
     max-height: 300px;
@@ -10,4 +38,12 @@
 
 .card-link {
     text-decoration: none;
+}
+
+.card {
+    border-radius: 100px !important;
+}
+
+.card-group {
+    gap: 20px;
 }
