@@ -43,6 +43,10 @@ body {
     margin: 1rem 0;
 }
 
+.card-title i {
+    margin-right: 1rem;
+}
+
 .card-body {
     text-align: center;
 }
