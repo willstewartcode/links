@@ -3,9 +3,8 @@
 :root {
     --gradient: linear-gradient(
         45deg,
-        #8A2387,
-            #E94057,
-            #F27121
+        #FF5F6D,
+        #FFC371
         );
 }
 
@@ -14,16 +13,15 @@ body {
     padding: 2rem;
     color: white !important;
     background-image: var(--gradient);
-    background-size: 400%;
-    background-repeat: no-repeat;
-    animation: bg-animation 20s infinite alternate;
+    background-size: 100%;
+    /* animation: bg-animation 20s infinite alternate; */
     
     font-family: "Ubuntu", sans-serif !important;
     font-weight: 400;
     font-style: normal;
 }
 
-@keyframes bg-animation {
+/* @keyframes bg-animation {
     0% {
         background-position: left;
     }
@@ -31,7 +29,7 @@ body {
     100% {
         background-position: right;
     }
-}
+} */
 
 #profile-picture {
     max-width: 200px;
@@ -40,7 +38,7 @@ body {
 }
 
 #intro {
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem 0 2rem 0;
 }
 
 #intro h1 {
