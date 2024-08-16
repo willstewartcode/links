@@ -1,0 +1,13 @@
+#profile-picture {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-link {
+    text-decoration: none;
+}
