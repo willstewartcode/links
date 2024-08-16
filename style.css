@@ -59,8 +59,5 @@ body {
     background-color: transparent !important;
     color: white !important;
     border-color: white !important;
-}
-
-.card-group {
-    gap: 1rem;
+    margin-bottom: 1rem;
 }
