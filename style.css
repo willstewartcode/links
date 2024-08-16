@@ -10,11 +10,12 @@
 }
 
 body {
-    height: 100svh;
-    padding: 1rem;
+    min-height: 100svh;
+    padding: 2rem;
     color: white !important;
     background-image: var(--gradient);
-    background-size: 300%;
+    background-size: 400%;
+    background-repeat: no-repeat;
     animation: bg-animation 20s infinite alternate;
     
     font-family: "Ubuntu", sans-serif !important;
@@ -39,7 +40,11 @@ body {
 }
 
 #intro {
-    margin: 1rem 0;
+    margin: 1rem 0 1.5rem 0;
+}
+
+#intro h1 {
+    font-size: 1.8rem;
 }
 
 .card-title i {
