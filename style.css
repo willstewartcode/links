@@ -63,3 +63,15 @@ body {
     color: white !important;
     border-color: white !important;
 }
+
+.card:hover,
+.card:focus {
+    background-color: white !important;
+    color: transparent !important;
+    
+    .card-title {
+        background-image: var(--gradient);
+        background-clip: text;
+    }
+
+}
