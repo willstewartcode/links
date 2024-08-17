@@ -2,11 +2,12 @@
 
 :root {
     --gradient: linear-gradient(
-        45deg,
-        #FF5F6D,
-        #FFC371
-        );
+        43deg,
+        #4158D0 0%,
+        #C850C0 46%,
+        #FFCC70 90%);
 }
+
 
 body {
     min-height: 100svh;
@@ -62,6 +63,7 @@ body {
     background-color: transparent !important;
     color: white !important;
     border-color: white !important;
+    transition: all 100ms;  
 }
 
 .card:hover,
@@ -74,4 +76,5 @@ body {
         background-clip: text;
     }
 
+    transform: scale(104%);
 }
